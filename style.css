@@ -3,44 +3,43 @@ body {
     color: inherit;
 }
 
-ul {
-    
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position:absolute;
-    top: 0;
-    width: 100%;    
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  text-decoration: none;
+  color: inherit;
 }
 
-.active {
-    background-color: #4CAF50;
-}
-
-li a:hover:not(.active) {
-    background-color: #111;
-}
-
-
-li a {
-   direction: rtl;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li {
-    float: right;
-}
-
-.container {
+/*.container {
     padding: 15px;
+}*/
+
+
+
+.main-nav ul {
+    display: flex;
+    justify-content:flex-start;
 }
 
-.navbar {
-    direction: rtl;
+.main-nav a {
+    background-color:azure;
+    display: block;
+    margin: 0 10px;
+    color: cornflowerblue;
+    font-size: 30px;
+}
+
+.main-nav a:hover {
+    border-bottom: 4px solid #381500;
+}
+
+.main-nav .current a {
+    border-bottom: 4px solid #798d98;
+}
+
+img {
+    max-width: 100%;
 }
