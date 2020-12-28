@@ -1,4 +1,46 @@
 body {
-  font-family: 'Assistant',sans-serif;
-  color: inherit;
+    font-family: 'Assistant', sans-serif;
+    color: inherit;
+}
+
+ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position:absolute;
+    top: 0;
+    width: 100%;    
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+
+li a {
+   direction: rtl;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li {
+    float: right;
+}
+
+.container {
+    padding: 15px;
+}
+
+.navbar {
+    direction: rtl;
 }
