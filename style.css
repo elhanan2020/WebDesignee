@@ -44,10 +44,16 @@ nav a {
 
 img {
     max-width: 100%;
+    display: block;
+    width: auto;
+    height: auto;
 }
 
 .nyc {
    float: left;
     max-width:50%;
 }
-
+.container{
+    max-width:800px;
+    margin: auto;
+}
