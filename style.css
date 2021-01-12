@@ -1,6 +1,7 @@
 body {
 	background-image: url(images/beanstalk.png);
 	font-family: 'Alef', sans-serif;
+	line-height: 1.5;
 	color: inherit;
 }
 
@@ -65,4 +66,13 @@ img {
 	grid-template-columns: 1fr 1fr;
 	align-items: center;
 	grid-gap: 30px;
+}
+
+.contactUs {
+	background: url("images/alan-carrillo-HIghIy9i0aY-unsplash%20(1).jpg") center, no-repeat;
+	background-size: cover;
+	color: #000;
+    padding: 60px;
+	text-align: center;
+	min-width: 100%;
 }
