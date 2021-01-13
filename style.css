@@ -5,42 +5,16 @@ body {
 	color: inherit;
 }
 
-nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
 
-nav a {
-	text-decoration: none;
-	color: inherit;
-}
 
 /*.container {
     padding: 15px;
 }*/
 
-
-
-.main-nav ul {
-	display: flex;
-	justify-content: flex-start;
-}
-
-.main-nav a {
-	background-color: azure;
+ .logo{
 	display: block;
-	margin: 0 10px;
-	color: cornflowerblue;
-	font-size: 30px;
-}
-
-.main-nav a:hover {
-	border-bottom: 4px solid #381500;
-}
-
-.main-nav l.current a {
-	border-bottom: 4px solid #798d98;
+	margin: auto;
+	text-align: center;
 }
 
 img {
