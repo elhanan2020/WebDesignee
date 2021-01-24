@@ -1,5 +1,4 @@
 body {
-	background-image: url(images/beanstalk.png);
 	font-family: 'Alef', sans-serif;
 	line-height: 1.5;
 	color: inherit;
@@ -9,7 +8,7 @@ body {
 
 
 /*.container {
-    padding: 15px;
+    padding: 15px;s
 }*/
 
  .logo{
@@ -64,6 +63,9 @@ a {
 }
 
 .mygallery div:hover {
-	transition: .2s;
+	transition: .4s;
   transform: scale(1.4);
+}
+h2 {
+	text-align: center;
 }
