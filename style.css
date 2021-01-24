@@ -73,9 +73,7 @@ h2 {
 	text-align: center;
 }
 
-.containt {
-	background: url("images/image%20(4).jpg")center no-repeat;
-}
+
 .containt img {
 	
 	border: 3px solid #fff; 
@@ -84,7 +82,7 @@ h2 {
 .mybutton {	
   transition: .3s;
   display: inline-block;
-	background-color: #a44166;
+	background-color: #7f4a4c;
   color: #fff;  
   font-family: 'Alef', sans-serif;
   font-size: 18px;
